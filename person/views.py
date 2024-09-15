@@ -1,5 +1,4 @@
-from django.shortcuts import render
-from django.http import HttpResponse, JsonResponse
+from django.http import HttpResponse
 import pymongo
 from bson.json_util import dumps
 
